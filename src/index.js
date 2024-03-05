@@ -9,16 +9,14 @@ import Resume from './Resume';
 
 function App() {
   return (
-    <div className="app">
+    <main>
       <Header />
-      <main>
-        <AboutMe />
-        <Portfolio />
-        <ContactMe />
-        <Resume />
-      </main>
+      <AboutMe />
+      <Portfolio />
+      <ContactMe />
+      <Resume />
       <Footer />
-    </div>
+    </main>
   );
 }
 
